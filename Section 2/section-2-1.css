@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: rgb(182, 169, 200);
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(31, 24, 40);
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(31, 24, 40);
+}
+
+a {
+  color: rgb(119, 28, 147);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#upcoming-challenges {
+  color: rgb(68, 55, 86);
+  font-weight: bold;
+  font-size: 36px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,14 +11,32 @@
     <link href="styles/section-3.css" rel="stylesheet" />
     <link href="styles/section-3-full-week.css" rel="stylesheet" />
     <title>Upcoming Challenges</title>
-</head>
-<body>
-    <h1>Upcoming Challenges</h1>
-    <a href="index.html">Go back to see today's challenge.</a>
-    <ol id="upcoming-challenges">
-        <li>Practice what I learned about HTML and CSS</li>
-        <li>Do my daily exercises and continue learning</li>
-        <li>Dive deeper into web development to build more complex websites</li>
-    </ol>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Upcoming Challenges</h1>
+      <p id="description">These are my goals for the near future</p>
+      <a href="index.html">Go back to see today's challenge.</a>
+    </header>
+    <main>
+      <ol>
+        <li>
+          <h2>Tomorrow</h2>
+          <p>Practice what I learned about HTML and CSS</p>
+        </li>
+        <li class="highlight-goal">
+          <h2>The day after</h2>
+          <p>Do my daily exercises and continue learning</p>
+        </li>
+        <li class="highlight-goal">
+            <h2>The day after that</h2>
+          <p>Dive deeper into web development to build more complex websites</p>
+        </li>
+        <li>
+            <h2>After that...</h2>
+            <p>Learn forms</p>
+        </li>
+      </ol>
+    </main>
+  </body>
 </html>

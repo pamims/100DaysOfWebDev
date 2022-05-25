@@ -11,6 +11,7 @@ h1 {
 #description {
   margin: 12px 0px;
 }
+
 /*header p {
   margin-bottom: 0px;
 }*/
@@ -40,7 +41,7 @@ ol {
 
 li {
   padding: 16px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   margin: 32px;
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
@@ -48,7 +49,7 @@ li {
 
 h2 {
   color: rgb(78, 13, 5);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 main p {
